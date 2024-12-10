@@ -1,0 +1,25 @@
+main {
+  height: 80vh;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 1rem;
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 20rem;
+    background-color: green;
+    padding: 1rem;
+    border-radius: 10px;
+
+    img {
+      height: 200px;
+    }
+  }
+}
